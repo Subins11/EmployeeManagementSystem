@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.leave__list {
+  margin-bottom: 20px;
+}
+
+.leave__approval__table {
+  h5 {
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+  }
+  h5:hover {
+    color: #ff5f1f;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  thead {
+    background-color: #ff5f1f;
+  }
+
+  th,
+  td {
+    padding: 12px;
+    text-align: left;
+    font-size: 12px;
+    border-bottom: 1px solid #ff5f1f;
+  }
+
+  th {
+    font-weight: bold;
+  }
+  .approve {
+    width: 80px;
+    height: 25px;
+    background-color: #ff5f1f;
+    border: none;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+  }
+  .reject {
+    width: 80px;
+    height: 25px;
+    background-color: #ffffff;
+    border: none;
+    border: 1px solid #ff5f1f;
+    cursor: pointer;
+    margin-left: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+  }
+}

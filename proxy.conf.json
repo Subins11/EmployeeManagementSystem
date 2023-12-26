@@ -1,0 +1,6 @@
+{
+    "/api": {
+      "target": "https://employeemanagement-1fd9f-default-rtdb.firebaseio.com/EmployeeDetails.json",
+      "secure": false
+    }
+  }

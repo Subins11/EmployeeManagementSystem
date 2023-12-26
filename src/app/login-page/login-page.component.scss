@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+}
+input{
+  border: 1px solid #FF5F1F;
+}
+i{
+  color: #FF5F1F;
+}
+.login-page {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+.form-right{
+background-color: #FF5F1F;
+color: #ffffff;
+h2{
+  padding-top: 80px;
+}
+}
+button{
+  width: 100px;
+  height: 35px;
+  border: 1px solid white;
+  background-color: #FF5F1F;
+  color:white;
+}
+button:hover{
+  border: 1px solid #FF5F1F;
+  background-color: #ffffff;
+  color:#FF5F1F;
+}

@@ -1,0 +1,44 @@
+<!-- Bar Chart -->
+<div>
+  <h5></h5>
+  <app-charts></app-charts>
+</div>
+<!-- Leave Approval Section -->
+<div class="leave__approval__table">
+  <h5>LEAVE REQUESTS</h5>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>TYPE OF LEAVE</th>
+        <th>START DATE</th>
+        <th>END DATE</th>
+        <th>REASON</th>
+        <th>STATUS</th>
+        <th>ACTION</th>
+      </tr>
+
+      <tr></tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let request of leaveRequests">
+        <td>{{ request.id }}</td>
+        <td>{{ request.fullName | uppercase }}</td>
+        <td>{{ request.leaveType | uppercase }}</td>
+        <td>{{ request.startDate | date }}</td>
+        <td>{{ request.endDate | date }}</td>
+        <td>{{ request.reason | uppercase }}</td>
+        <td>{{ request.status | uppercase }}</td>
+        <td>
+          <button class="approve" (click)="approveLeave(request)">
+            APPROVE <i class="bi bi-check-lg"></i>
+          </button>
+          <button class="reject" (click)="rejectLeave(request)">
+            REJECT <i class="bi bi-x"></i>
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

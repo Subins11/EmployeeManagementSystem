@@ -1,0 +1,91 @@
+<!-- Creating Employee -->
+
+<div class="container">
+  <h5>ADD EMPLOYEE</h5>
+  <form [formGroup]="employeeForm">
+    <label for="image">Profile Pic</label>
+    <input type="text" name="image" placeholder="Image URL" formControlName="image">
+    <label for="fullName">Full Name:</label>
+    <input
+      type="text"
+      class="form-control"
+      id="fullName"
+      placeholder="Enter your full name"
+      formControlName="fullName"
+    />
+    <label for="leaveType">Type of Leave</label>
+    <select
+      class="form-control"
+      id="leaveType"
+      name="leaveType"
+      required
+      formControlName="jobRole"
+    >
+      <option value="" disabled selected>Job Role</option>
+      <option value="frontend">Frontend Developer</option>
+      <option value="backend">Backend Developer</option>
+      <option value="ml">ML Engineer</option>
+      <option value="ai">AI Engineer</option>
+      <option value="Business">Business Analytics</option>
+      <option value="hr">Human Resource</option>
+    </select>
+    <label for="age">Age:</label>
+    <input
+      type="number"
+      class="form-control"
+      id="age"
+      placeholder="Enter your age"
+      formControlName="age"
+    />
+    <label for="dob">Date of Birth:</label>
+    <input
+      type="date"
+      class="form-control"
+      id="dob"
+      formControlName="dateOfBirth"
+    />
+    
+    <label for="bloodGroup">Blood Group:</label>
+    <input
+      type="text"
+      class="form-control"
+      id="bloodGroup"
+      placeholder="Enter your blood group"
+      formControlName="bloodGroup"
+    />
+    <label>Gender:</label> <br />
+    <select
+      class="form-control"
+      name="gender"
+      id="male"
+      value="Male"
+      formControlName="gender">
+      
+      <option value="" disabled selected>Select</option>
+      <option value="male">MALE</option>
+      <option value="female">FEMALE</option>
+      <option>PREFER NOT TO SAY</option>
+    </select>
+    
+
+    <label for="email">Email ID:</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      placeholder="Enter your email"
+      formControlName="email"
+    />
+    <label for="mobileNumber">Mobile Number:</label>
+    <input
+      type="tel"
+      class="form-control"
+      id="mobileNumber"
+      placeholder="Enter your mobile number"
+      formControlName="mobile"
+    />
+    <button type="submit" class="btn" (click)="onSubmit()">
+      Submit
+    </button>
+  </form>
+</div>

@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "fullName": "Subin S",
+      "leaveType": "sick",
+      "startDate": "2023-12-26",
+      "endDate": "2023-12-28",
+      "reason": "Covid",
+      "id": 1,
+      "status": "Approved"
+    },
+    {
+      "fullName": "Tommy Shelby",
+      "leaveType": "personal",
+      "startDate": "2023-12-27",
+      "endDate": "2023-12-27",
+      "reason": "Personal",
+      "id": 2,
+      "status": "Rejected"
+    }
+  ],
+  "posts": [
+    {
+      "fullName": "Subin S",
+      "jobRole": "frontend",
+      "age": 26,
+      "dateOfBirth": "1997-10-11",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i1adoYbodw0YI6QsrVQSB1GHH2_K_SNmzQ&usqp=CAU",
+      "bloodGroup": "O+",
+      "gender": "male",
+      "email": "subin@123",
+      "mobile": "8848399499",
+      "id": 1,
+      "status": true
+    },
+    {
+      "image": "https://img.freepik.com/premium-vector/man-avatar-profile-picture-vector-illustration_268834-538.jpg",
+      "fullName": "Tommy Shelby",
+      "jobRole": "Business",
+      "age": 30,
+      "dateOfBirth": "1994-02-02",
+      "bloodGroup": "O-",
+      "gender": "male",
+      "email": "tommy@321",
+      "mobile": "9876543210",
+      "id": 2,
+      "status": true
+    },
+    {
+      "image": "https://static.vecteezy.com/system/resources/thumbnails/032/176/147/small/business-avatar-profile-black-icon-man-of-user-symbol-in-trendy-flat-style-isolated-on-male-profile-people-diverse-face-for-social-network-or-web-vector.jpg",
+      "fullName": "Arthur Shelby",
+      "jobRole": "frontend",
+      "age": 35,
+      "dateOfBirth": "1988-12-22",
+      "bloodGroup": "A+",
+      "gender": "male",
+      "email": "arthu@9797",
+      "mobile": "7410258369",
+      "id": 3,
+      "status": true
+    },
+    {
+      "image": "https://i.pngimg.me/thumb/f/720/m2i8H7d3N4d3G6H7.jpg",
+      "fullName": "Polly Gray",
+      "jobRole": "hr",
+      "age": 45,
+      "dateOfBirth": "1978-02-10",
+      "bloodGroup": "B+",
+      "gender": "female",
+      "email": "polly@43",
+      "mobile": "8520741963",
+      "id": 4,
+      "status": false
+    }
+  ],
+  "login": [
+    {
+      "username": "Admin",
+      "password": "admin",
+      "id": 1
+    },
+    {
+      "username": "user1",
+      "password": "user1",
+      "id": 2
+    },
+    {
+      "username": "user2",
+      "password": "user2",
+      "id": 3
+    },
+    {
+      "username": "user3",
+      "password": "user3",
+      "id": 4
+    },
+    {
+      "username": "user4",
+      "password": "user4",
+      "id": 5
+    },
+    {
+      "username": "user5",
+      "password": "user5",
+      "id": 6
+    }
+  ]
+}

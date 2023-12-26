@@ -1,0 +1,28 @@
+<!-- Sidebar Section -->
+
+<div class="row">
+  <div class="col-sm-2 sidebar pe-0 p-3">
+    <a class="p-3 text-center">
+      <strong>EMPLOYEE</strong>
+    </a>
+    <hr class="text" />
+
+    <a class="p-3" (click)="showEmployee()">
+      <i class="bi bi-person-fill me-3"></i>
+      <strong>Yout Profile</strong>
+    </a>
+
+    <a class="p-3" (click)="leaveApplication()">
+      <i class="bi bi-calendar-event-fill me-3"></i>
+      <strong>Apply Leave</strong>
+    </a>
+    <a class="p-3" (click)="logout()">
+      <i class="bi bi bi-box-arrow-left me-3"></i>
+      <strong>Log Out</strong>
+    </a>
+  </div>
+  <div class="col-sm-10 bg-white">
+    <app-details-page *ngIf="employeeDetails"></app-details-page>
+    <app-leave-application-page *ngIf="Leave"></app-leave-application-page>
+  </div>
+</div>
