@@ -11,6 +11,7 @@ import Swal from 'sweetalert2';
 })
 export class EmployeeDetailsComponent implements OnInit {
   employees: Employee[] = [];
+  
   selectedEmployee: any;
 
   isEditing: boolean = false;

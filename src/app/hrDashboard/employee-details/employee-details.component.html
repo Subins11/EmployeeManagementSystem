@@ -9,6 +9,7 @@
         <th>IMAGE</th>
         <th>FULL NAME</th>
         <th>ROLE</th>
+        <th>AGE</th>
         <th>DATE OF BIRTH</th>
         <th>BLOOD GROUP</th>
         <th>GENDER</th>
@@ -24,6 +25,7 @@
         <td><img [src]="employee.image" height="50px" width="50px"></td>
         <td>{{ employee.fullName | uppercase }}</td>
         <td>{{ employee.jobRole | uppercase }}</td>
+        <td>{{employee.age}}</td>
         <td>{{ employee.dateOfBirth | date }}</td>
         <td>{{ employee.bloodGroup | uppercase }}</td>
         <td>{{ employee.gender | uppercase }}</td>

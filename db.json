@@ -17,6 +17,15 @@
       "reason": "Personal",
       "id": 2,
       "status": "Rejected"
+    },
+    {
+      "fullName": "Polly Gray",
+      "leaveType": "sick",
+      "startDate": "2023-12-27",
+      "endDate": "2023-12-28",
+      "reason": "NA",
+      "id": 3,
+      "status": "Rejected"
     }
   ],
   "posts": [
@@ -26,7 +35,7 @@
       "age": 26,
       "dateOfBirth": "1997-10-11",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8i1adoYbodw0YI6QsrVQSB1GHH2_K_SNmzQ&usqp=CAU",
-      "bloodGroup": "O+",
+      "bloodGroup": "O-",
       "gender": "male",
       "email": "subin@123",
       "mobile": "8848399499",
@@ -73,36 +82,5 @@
       "status": false
     }
   ],
-  "login": [
-    {
-      "username": "Admin",
-      "password": "admin",
-      "id": 1
-    },
-    {
-      "username": "user1",
-      "password": "user1",
-      "id": 2
-    },
-    {
-      "username": "user2",
-      "password": "user2",
-      "id": 3
-    },
-    {
-      "username": "user3",
-      "password": "user3",
-      "id": 4
-    },
-    {
-      "username": "user4",
-      "password": "user4",
-      "id": 5
-    },
-    {
-      "username": "user5",
-      "password": "user5",
-      "id": 6
-    }
-  ]
+  "login": []
 }
