@@ -11,7 +11,7 @@ import { EmployeeService } from "src/app/services/employee.service";
   templateUrl: './details-page.component.html',
   styleUrls: ['./details-page.component.scss']
 })
-export class DetailsPageComponent {
+export class DetailsPageComponent implements OnInit {
 
 leaveRequests: LeaveRequest[] = [];
 employees: Employee[] = [];
@@ -37,7 +37,7 @@ isEditing: boolean = false;
       console.log('All employees:', data);
     
       this.employees = data;
-      this.selectedEmployee = this.employees.find((employee) => employee.id === 1);
+      this.selectedEmployee = this.employees.find((employee) => employee.id === 1); //Employee Details of ID 1
       console.log('Selected employee:', this.selectedEmployee);
 
       if (this.selectedEmployee) {
